@@ -16,8 +16,3 @@ fun contohColumn(modifier: Modifier) {
         Text("My Life")
     }
 }
-
-@Composable
-fun contohRow(modifier: Modifier){
-    Row(modifier= modifier.) { }
-}
