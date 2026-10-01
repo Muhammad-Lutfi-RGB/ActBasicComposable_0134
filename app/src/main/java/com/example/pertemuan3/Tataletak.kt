@@ -14,10 +14,10 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun TataletakColumn(modifier: Modifier) {
     Column(modifier = modifier.padding(top =20.dp, start = 20.dp, end = 20.dp)) {
-        Text("Komponen1")
-        Text("Komponen2")
-        Text("Komponen3")
-        Text("Komponen4")
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
     }
 }
 
@@ -25,9 +25,21 @@ fun TataletakColumn(modifier: Modifier) {
 fun TataletakRow(modifier: Modifier) {
     Row(modifier= modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.SpaceEvenly) {
-        Text("Komponen1")
-        Text("Komponen2")
-        Text("Komponen3")
-        Text("Komponen4")
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
+    }
+}
+
+
+@Composable
+fun TataletakBox() {
+    Box() {
+        Text(text = "Box 1")
+        Text(text = "Column 1")
+        Text(text = "Row 1")
+        Text(text = "Box 2")
+        Text(text = "Column 2")
     }
 }
