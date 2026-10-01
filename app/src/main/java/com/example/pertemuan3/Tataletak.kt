@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -66,6 +67,27 @@ fun TataletakColumnRow(modifier: Modifier) {
             Text(text = "Komponen1Baris2")
             Text(text = "Komponen2Baris2")
             Text(text = "Komponen3Baris2")
+        }
+    }
+}
+
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.canyon)
+    Column {
+        Box() {
+            Column() {
+                Row() {
+                    Text(text = "Col1_Row1_Komponen1")
+                    Text(text = "Col1_Row1_Komponen2")
+                    Text(text = "Col1_Row1_Komponen3")
+                }
+                Row() {
+                    Text(text = "Col1_Row2_Komponen1")
+                    Text(text = "Col1_Row2_Komponen2")
+                    Text(text = "Col1_Row2_Komponen3")
+                }
+            }
         }
     }
 }
