@@ -54,7 +54,11 @@ fun loginScreen () {
                 fontWeight = FontWeight.Bold
             )
 
-
+            Text(text = "Muhammad Lutfi Sirajul Huda",
+                color = Color.Blue,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold
+                )
         }
     }
 }
