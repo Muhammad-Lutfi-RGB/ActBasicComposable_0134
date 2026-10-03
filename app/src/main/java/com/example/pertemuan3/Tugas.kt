@@ -49,17 +49,23 @@ fun loginScreen () {
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(150.dp),
                 contentScale = ContentScale.Fit
-            )
+                )
 
             Text(text = "Nama",
                 color = Color.Red,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold
-            )
+                )
 
             Text(text = "Muhammad Lutfi Sirajul Huda",
                 color = Color.Blue,
                 fontSize = 18.sp,
+                fontWeight = FontWeight.Bold
+                )
+
+            Text(text = "20240140134",
+                color = Color.Black,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
                 )
 
