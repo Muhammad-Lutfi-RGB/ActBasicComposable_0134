@@ -33,11 +33,9 @@ fun loginScreen(modifier: Modifier) {
         )
 
         Column(modifier = Modifier.fillMaxSize()
-            .padding(16.dp),
+            .padding(horizontal = 16.dp, vertical = 24.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top) {
-
-            Spacer(modifier = Modifier.height(70.dp))
 
             Text(text = "Login",
                 color = Color.Green,
@@ -48,16 +46,16 @@ fun loginScreen(modifier: Modifier) {
                 color = Color.White,
                 fontSize = 15.sp)
 
-            Spacer(modifier = Modifier.height(30.dp))
+            Spacer(modifier = Modifier.height(20.dp))
 
             Image(
                 painter = painterResource(id = R.drawable.umy),
                 contentDescription = "Logo UMY",
-                modifier = Modifier.size(360.dp),
+                modifier = Modifier.size(160.dp),
                 contentScale = ContentScale.Fit
                 )
 
-            Spacer(modifier = Modifier.height(30.dp))
+            Spacer(modifier = Modifier.height(50.dp))
 
             Text(text = "Nama",
                 color = Color.Red,
@@ -72,7 +70,7 @@ fun loginScreen(modifier: Modifier) {
                 )
 
             Text(text = "20240140134",
-                color = Color.DarkGray,
+                color = Color.White,
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold
                 )
@@ -83,7 +81,7 @@ fun loginScreen(modifier: Modifier) {
                 painter = painterResource(id = R.drawable.kaaba),
                 contentDescription = "Gambar Ka'bah di Lingkaran",
                 contentScale = ContentScale.Crop,
-                modifier = Modifier.size(250.dp)
+                modifier = Modifier.size(300.dp)
                     .clip(CircleShape)
                     .border(width = 4.dp, color = Color.White, shape = CircleShape)
             )
