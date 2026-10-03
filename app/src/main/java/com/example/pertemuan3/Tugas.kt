@@ -53,7 +53,7 @@ fun loginScreen(modifier: Modifier) {
             Image(
                 painter = painterResource(id = R.drawable.umy),
                 contentDescription = "Logo UMY",
-                modifier = Modifier.size(180.dp),
+                modifier = Modifier.size(360.dp),
                 contentScale = ContentScale.Fit
                 )
 
@@ -72,7 +72,7 @@ fun loginScreen(modifier: Modifier) {
                 )
 
             Text(text = "20240140134",
-                color = Color.LightGray,
+                color = Color.DarkGray,
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold
                 )
