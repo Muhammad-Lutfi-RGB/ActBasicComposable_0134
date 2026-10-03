@@ -35,13 +35,16 @@ fun loginScreen(modifier: Modifier) {
         Column(modifier = Modifier.fillMaxSize()
             .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center) {
+            verticalArrangement = Arrangement.Top) {
+
+            Spacer(modifier = Modifier.height(70.dp))
+
             Text(text = "Login",
-                color = Color.Blue,
+                color = Color.Green,
                 fontSize = 30.sp,
                 fontWeight = FontWeight.Bold)
 
-            Text(text = "Ini adalah halaman login",
+            Text(text = "Ini adalah halaman login,",
                 color = Color.White,
                 fontSize = 15.sp)
 
@@ -50,7 +53,7 @@ fun loginScreen(modifier: Modifier) {
             Image(
                 painter = painterResource(id = R.drawable.umy),
                 contentDescription = "Logo UMY",
-                modifier = Modifier.size(150.dp),
+                modifier = Modifier.size(180.dp),
                 contentScale = ContentScale.Fit
                 )
 
@@ -63,14 +66,14 @@ fun loginScreen(modifier: Modifier) {
                 )
 
             Text(text = "Muhammad Lutfi Sirajul Huda",
-                color = Color.Blue,
-                fontSize = 18.sp,
+                color = Color.Green,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
                 )
 
             Text(text = "20240140134",
-                color = Color.Black,
-                fontSize = 20.sp,
+                color = Color.LightGray,
+                fontSize = 28.sp,
                 fontWeight = FontWeight.Bold
                 )
 
@@ -80,7 +83,7 @@ fun loginScreen(modifier: Modifier) {
                 painter = painterResource(id = R.drawable.kaaba),
                 contentDescription = "Gambar Ka'bah di Lingkaran",
                 contentScale = ContentScale.Crop,
-                modifier = Modifier.size(200.dp)
+                modifier = Modifier.size(250.dp)
                     .clip(CircleShape)
                     .border(width = 4.dp, color = Color.White, shape = CircleShape)
             )
