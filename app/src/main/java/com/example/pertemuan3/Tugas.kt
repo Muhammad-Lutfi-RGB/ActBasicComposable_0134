@@ -1,6 +1,5 @@
 package com.example.pertemuan3
 
-import android.media.Image
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -25,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun loginScreen () {
+fun loginScreen(modifier: Modifier) {
     Box(modifier = Modifier.fillMaxSize()) {
         Image(painter = painterResource(id = R.drawable.mosque),
             contentDescription = "Backqround",
