@@ -10,7 +10,7 @@ import androidx.compose.ui.res.painterResource
 
 @Composable
 fun loginScreen () {
-    Box() {
+    Box(modifier = Modifier.fillMaxSize()) {
         Image (painter = painterResource(id = R.drawable.mosque),
             contentDescription = "Backqround",
             contentScale = ContentScale.Crop,
