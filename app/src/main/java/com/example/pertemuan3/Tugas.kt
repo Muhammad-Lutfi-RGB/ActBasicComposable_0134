@@ -68,6 +68,8 @@ fun loginScreen () {
                 contentDescription = "Gambar Ka'bah di Lingkaran",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.size(200.dp)
+                    .clip(CircleShape)
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
             )
         }
     }
