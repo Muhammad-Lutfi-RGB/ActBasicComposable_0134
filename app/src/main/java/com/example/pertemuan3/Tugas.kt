@@ -47,6 +47,14 @@ fun loginScreen () {
                 modifier = Modifier.size(150.dp),
                 contentScale = ContentScale.Fit
             )
+
+            Text(text = "Nama",
+                color = Color.Red,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+
         }
     }
 }
