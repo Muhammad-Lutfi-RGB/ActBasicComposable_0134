@@ -55,6 +55,8 @@ fun loginScreen () {
                 contentScale = ContentScale.Fit
                 )
 
+            Spacer(modifier = Modifier.height(30.dp))
+
             Text(text = "Nama",
                 color = Color.Red,
                 fontSize = 16.sp,
