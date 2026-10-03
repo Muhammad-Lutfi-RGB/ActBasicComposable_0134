@@ -75,6 +75,8 @@ fun loginScreen () {
                 fontWeight = FontWeight.Bold
                 )
 
+            Spacer(modifier = Modifier.height(30.dp))
+
             Image(
                 painter = painterResource(id = R.drawable.kaaba),
                 contentDescription = "Gambar Ka'bah di Lingkaran",
